@@ -1,0 +1,37 @@
+:root {
+    --title-color: #31058a;
+    --primary-color: #34cb49;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+}  
+
+
+body{
+    background: #ddd666;
+    -webkit-font-smoothing: antialiased;
+}
+
+a {
+    text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Ubuntu', sans-serif;
+    color: var(--title-color);
+}
+
+/* box model 
+Modelo de caixa
+Toda caixa tem:
+Largura, altura, espaçamentos, preenchimentos
+bordas, cor, fundo, maneira que é vista pelo html (display)
+alinhamentos
+*/
