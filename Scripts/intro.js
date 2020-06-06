@@ -65,8 +65,7 @@
 // }
 
 //loop - repetições
-
-for (i = 0; i < 10; i++) {
-    document.write()
-  }
+// for (i = 0; i < 10; i++) {
+//     document.write(`<p>${i}</p>`) 
+//   }
   
