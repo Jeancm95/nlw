@@ -18,11 +18,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ecoleta</title>
 
-
     <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@700&display=swap" rel="stylesheet">
     
     <link rel="stylesheet" href="/Styles/main.css">
     <link rel="stylesheet" href="/Styles/home.css">
+    <link rel="stylesheet" href="/Styles/modal.css">
+
+
     <link rel="stylesheet" href="/Styles/responsive.css">
 
 </head>
@@ -35,11 +37,9 @@
         <div class="content">
 
             <header>
-                <a href="#">
-                    <img src="/assets/logo.svg" alt="Logomarca">
-                </a>       
+                <img src="/assets/logo.svg" alt="Logomarca">      
                 
-                <a href="#">
+                <a href="/create-point.html">
                     <span></span>
                     Cadastre um ponto de coleta</a>
 
@@ -58,6 +58,26 @@
 
     </div>
   
+
+    <div id="modal" class="hide">
+        <div class="content">
+            <div class="header">
+                <h1>Pontos de coleta</h1>
+                <a href="#">Fechar</a>
+            </div>
+            <form action="/search-results.html">
+                <label for="search">Cidade</label>
+                <div class="search field">
+                    <input type="text" name="search" placeholder="Pesquise por cidade">
+                    <button>
+                        <img src="/assets/search.svg" alt="Buscar">
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+    
+    <script src="/Scripts/index.js"></script>
 
 </body>
 </html>
